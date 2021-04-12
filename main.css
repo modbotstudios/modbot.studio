@@ -4,9 +4,10 @@
 @import url('https://cdn.jsdelivr.net/npm/tippy.js@6.2.6/animations/shift-toward-subtle.min.css');
 @import url('https://cdn.jsdelivr.net/npm/disfont@0.0.1/master.min.css');
 @import url('https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css');
+@import url('https://fonts.googleapis.com/css?family=Muli');
 
 :root {
-  --font: 'Whitney', sans-serif;
+  --font: 'Muli';
 
   --blurple: #7289DA;
   --blurple-secondary: #7289DA; 
@@ -275,7 +276,7 @@ b, strong {
   display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
   .desktopWrapper-a43ttn {
     display: none;
   }
@@ -446,7 +447,7 @@ b, strong {
   fill: var(--background-secondary-alt);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
   .announcement-h05uma {
     width: calc(80% - 80px);
     padding: 20px 40px;
@@ -527,7 +528,7 @@ b, strong {
   color: var(--header);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
   .commands-6ny4zm h2 {
     font-size: 48px;
   }
@@ -651,7 +652,7 @@ b, strong {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
   .row-1biwce {
     display: flex;
     align-items: center;
@@ -711,7 +712,7 @@ b, strong {
   border-color: var(--blurple-secondary);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
   .column-8japa1 h2 {
     font-size: 36px;
   }
@@ -807,7 +808,7 @@ b, strong {
   font-size: 200px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
   .row-3ybcoc {
     display: flex;
     align-items: center;
