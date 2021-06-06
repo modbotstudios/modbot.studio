@@ -9,9 +9,9 @@
 :root {
   --font: 'Muli';
 
-  --blurple: #7289DA;
-  --blurple-secondary: #7289DA; 
-  --blurple-tertiary: #7289DA; 
+  --blurple: #5865F2;
+  --blurple-secondary: #5865F2; 
+  --blurple-tertiary: #5865F2; 
 
   --white: #FFFFFF;
   --black: #000000;
@@ -32,12 +32,12 @@
   --interactive-hover: #34373C;
   --interactive-active: #393C43;
 
-  --green: #43B581;
-  --green-secondary: #68C39A;
-  --green-tertiary: #30835D;
+  --green: #57F287;
+  --green-secondary: #35ffa4;
+  --green-tertiary: #35ffa4;
 
-  --red: #F04747;
-  --orange: #FAA61A;
+  --red: #ED4245 ;
+  --orange: #FEE75C;
 
   --grey: #747F8D;
   --grey-secondary: #8F98A3;
