@@ -1,3 +1,91 @@
-@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap';
+/**************** IMPORTS ****************/
+
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap';
 @import 'https://fonts.googleapis.com/css?family=Material+Icons+Outlined|Material+Icons+Round';
+
+/**************** THEME ****************/
+
+$font: 'Poppins', sans-serif;
+
+$heading: hsl(0, 0%, 100%);
+$text: hsl(216, 4%, 80%);
+$text-dark: hsl(225, 2%, 56%);
+
+$blurple: hsl(235, 87%, 65%);
+$blurple-secondary: hsl(235, 86%, 72%);
+$blurple-tertiary: hsl(235, 51%, 52%);
+
+$surface: hsl(225, 15%, 5%);
+$surface-secondary: hsl(225, 15%, 7%);
+$background-primary: hsl(225, 15%, 10%);
+$background-secondary: hsl(225, 15%, 14%);
+$background-tertiary: hsl(225, 15%, 16%);
+
+$status-green: hsl(153, 46%, 49%);
+$status-red: hsl(359, 83%, 59%);
+$status-orange: hsl(38, 96%, 54%);
+
+$idk: #F1C40F;
+$idk-light: hsl(48, 89%, 70%);
+
+$shadow-bottom: 0px 4px 4px rgba(0, 0, 0, .16);
+$shadow-all: 0 8px 15px rgba(0, 0, 0, .2);
+
+/**************** OVERWRITE DEFAULTS ****************/
+
+::selection {
+	background: $blurple;
+	color: $heading;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	scroll-behavior: smooth;
+	user-select: none;
+  font-family: $font;
+  font-size: 16px;
+	background: black;
+}
+
+* {
+	outline: 0;
+	border: none;
+  line-height: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-font-smoothing: antialiased;
+	text-decoration: none;
+	list-style: none;
+  font-family: inherit;
+	font-weight: 400;
+}
+
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+[hidden] {
+	display: none !important;
+	margin: 0;
+}
+
+/**************** PARTIALS ****************/
+
+@import 'partials/commands';
+@import 'partials/contact';
+@import 'partials/footer';
+@import 'partials/header';
+@import 'partials/hero';
 
