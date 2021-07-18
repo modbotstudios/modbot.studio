@@ -15,6 +15,9 @@ $blurple: hsl(235, 87%, 65%);
 $blurple-secondary: hsl(235, 86%, 72%);
 $blurple-tertiary: hsl(235, 51%, 52%);
 
+$grey: hsl(219, 8%, 34%);
+$grey-secondary: hsl(218, 5%, 47%);
+
 $surface: hsl(225, 15%, 5%);
 $surface-secondary: hsl(225, 15%, 7%);
 $background-primary: hsl(225, 15%, 10%);
@@ -24,9 +27,6 @@ $background-tertiary: hsl(225, 15%, 16%);
 $status-green: hsl(153, 46%, 49%);
 $status-red: hsl(359, 83%, 59%);
 $status-orange: hsl(38, 96%, 54%);
-
-$idk: #F1C40F;
-$idk-light: hsl(48, 89%, 70%);
 
 $shadow-bottom: 0px 4px 4px rgba(0, 0, 0, .16);
 $shadow-all: 0 8px 15px rgba(0, 0, 0, .2);
@@ -54,7 +54,6 @@ body, html {
 	user-select: none;
   font-family: $font;
   font-size: 16px;
-	background: black;
 }
 
 * {
@@ -88,4 +87,5 @@ svg {
 @import 'partials/footer';
 @import 'partials/header';
 @import 'partials/hero';
+@import 'partials/buttons';
 
