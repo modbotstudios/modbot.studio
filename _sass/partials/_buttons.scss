@@ -1,0 +1,37 @@
+// blurple button
+.btn-ylki76 {
+	padding: 12px 20px;
+	border-radius: 4px;
+	background: $blurple;
+	color: $heading;
+	font-size: 16px;
+	box-shadow: $shadow-all;
+	opacity: .99;
+	transition: .3s;
+	cursor: pointer;
+
+	&:hover {
+		background: $blurple-secondary;
+	}
+
+	&:active {
+		background: $blurple-tertiary;
+	}
+}
+
+// grey button
+.btn-wjr99i {
+	padding: 12px 20px;
+	border-radius: 4px;
+	background: $grey;
+	color: $heading;
+	font-size: 16px;
+	box-shadow: $shadow-all;
+	opacity: .99;
+	transition: .3s;
+	cursor: pointer;
+
+	&:hover {
+		background: $grey-secondary;
+	}
+}
