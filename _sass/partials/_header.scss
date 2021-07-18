@@ -1,0 +1,18 @@
+.headerType-3htr51 {
+  background: black;
+}
+
+.header {
+  .desktopWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+  
+    img {
+      width: 48px;
+      pointer-events: none;
+      cursor: pointer;
+    }
+  }
+}

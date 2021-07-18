@@ -1,0 +1,28 @@
+.hero-odpc9i {
+  background: $surface;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .text-xje3dk {
+    h1 {
+      font-size: 56px;
+      font-weight: 600;
+      color: $heading;
+      opacity: .99;
+    }
+
+    p {
+      font-size: 18px;
+      color: $text-dark;
+      opacity: .99;
+      margin-top: 10px;
+    }
+  }
+
+  img {
+    width: 200px;
+    pointer-events: none;
+    margin-bottom: 30px;
+  }
+}
