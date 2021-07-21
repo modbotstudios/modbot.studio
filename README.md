@@ -1,11 +1,11 @@
 # [modbot.studio](https://modbot.studio)
 
-this is the official repo for modbot's website, created by yours truly, [@notazury](https://github.com/notazury).
+This is the official repo for modbot's website, created by yours truly, [@notazury](https://github.com/notazury). The website is updated irregularly and without any rhythm, updates are made spontaneously from time to time.
 
-## license
+## License
 
-this repository is licensed under the [apache-2.0 license](blob/main/LICENSE) and is the intellectual property of [@notazury](https://github.com/notazury).
+This repository is licensed under the [Apache-2.0 License](blob/main/LICENSE) and is the intellectual property of [@notazury](https://github.com/notazury).
 
-## contribution
+## Contribution
 
-i currently don't accept contributions from third parties. nevertheless, thank you for your interest.
+I currently don't accept contributions from third parties. Nevertheless, thank you for your interest.
