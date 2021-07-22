@@ -2,20 +2,17 @@
 .btn-ylki76 {
 	padding: 12px 20px;
 	border-radius: 4px;
-	background: $blurple;
-	color: $heading;
+	background: $black;
+	color: $white;
 	font-size: 16px;
-	box-shadow: $shadow-all;
 	opacity: .99;
 	transition: .3s;
 	cursor: pointer;
+	border: solid 2px $black;
 
 	&:hover {
-		background: $blurple-secondary;
-	}
-
-	&:active {
-		background: $blurple-tertiary;
+		background: transparent;
+		color: $black;
 	}
 }
 
@@ -23,15 +20,16 @@
 .btn-wjr99i {
 	padding: 12px 20px;
 	border-radius: 4px;
-	background: $grey;
-	color: $heading;
+	background: transparent;
+	color: $black;
 	font-size: 16px;
-	box-shadow: $shadow-all;
+	border: solid 2px $black;
 	opacity: .99;
 	transition: .3s;
 	cursor: pointer;
 
 	&:hover {
-		background: $grey-secondary;
+		background: $black;
+		color: $white;
 	}
 }
