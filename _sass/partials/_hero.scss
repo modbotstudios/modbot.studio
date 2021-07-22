@@ -1,5 +1,5 @@
 .hero-odpc9i {
-  background: $surface;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,17 +10,14 @@
     margin-right: 160px;
 
     h1 {
-      font-weight: 600;
-      font-size: 48px;
-      color: $heading;
-      line-height: 1.3;
-      opacity: .99;
+      font-weight: 800;
+      font-size: 56px;
+      color: $black;
     }
 
     p {
-      font-size: 20px;
-      color: $text;
-      opacity: .99;
+      font-size: 18px;
+      color: $black-secondary;
       margin: 20px 0;
       width: 650px;
       line-height: 1.4;
@@ -42,8 +39,6 @@
   img {
     width: 300px;
     pointer-events: none;
-    background: $surface-secondary;
-    border-radius: 50%;
     opacity: .99;
   }
 }
@@ -79,6 +74,7 @@
       h1 {
         font-size: 40px;
         width: 80%;
+        line-height: 1.4;
       }
       
       p {
