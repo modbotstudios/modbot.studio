@@ -36,7 +36,7 @@ const desktopRow = document.createElement('div')
 desktopRow.classList.add('row-vuzyg4')
 
 const desktopLogo = document.createElement('img')
-desktopLogo.src = 'assets/c61ab46b98a5d3f8cc7f5d1be910ea5c.svg'
+desktopLogo.src = 'assets/bd4938d47588e8625b353494404397dc.svg'
 desktopLogo.alt = 'logo'
 
 const desktopNavigation = document.createElement('nav')
@@ -52,7 +52,7 @@ const mobileHeader = document.createElement('div')
 mobileHeader.classList.add('mobileWrapper-ynkqsv')
 
 const mobileLogo = document.createElement('img')
-mobileLogo.src = 'assets/cedb2e559f67eeec54c54d6b7bb055b7.svg'
+mobileLogo.src = 'assets/bd4938d47588e8625b353494404397dc.svg'
 mobileLogo.alt = 'logo'
 
 const mobileIcon = document.createElement('i')
