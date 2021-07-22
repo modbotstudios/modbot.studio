@@ -1,45 +1,22 @@
 /**************** IMPORTS ****************/
 
-@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap';
 @import 'https://fonts.googleapis.com/css?family=Material+Icons+Outlined|Material+Icons+Round';
 
 /**************** THEME ****************/
 
 $font: 'Poppins', sans-serif;
 
-$heading: hsl(0, 0%, 100%);
-$text: hsl(216, 4%, 80%);
-$text-dark: hsl(225, 2%, 56%);
-
-$blurple: hsl(235, 87%, 65%);
-$blurple-secondary: hsl(235, 86%, 72%);
-$blurple-tertiary: hsl(235, 51%, 52%);
-
-$grey: hsl(219, 8%, 34%);
-$grey-secondary: hsl(218, 5%, 47%);
-
-$surface: hsl(225, 15%, 5%);
-$surface-secondary: hsl(220, 17%, 7%);
-$background-primary: hsl(225, 15%, 10%);
-$background-secondary: hsl(224, 15%, 14%);
-$background-tertiary: hsl(225, 15%, 16%);
-
-$status-green: hsl(153, 46%, 49%);
-$status-red: hsl(359, 83%, 59%);
-$status-orange: hsl(38, 96%, 54%);
-
-$shadow-bottom: 0px 4px 4px rgba(0, 0, 0, .16);
-$shadow-all: 0 8px 15px rgba(0, 0, 0, .2);
+$white: hsl(0, 0%, 100%);
+$black: rgba(0, 0, 0, .9);
+$black-secondary: rgba(0, 0, 0, .7);
+$link: hsl(197, 97%, 47%);
 
 /**************** OVERWRITE DEFAULTS ****************/
 
 ::selection {
-	background: $blurple;
-	color: $heading;
-}
-
-:root {
-  color-scheme: dark;
+	background: $link;
+	color: $white;
 }
 
 body, html {
@@ -82,9 +59,9 @@ svg {
 
 /**************** PARTIALS ****************/
 
-@import 'partials/commands';
-@import 'partials/contact';
-@import 'partials/footer';
+//@import 'partials/commands';
+//@import 'partials/contact';
+//@import 'partials/footer';
 @import 'partials/header';
 @import 'partials/hero';
 @import 'partials/buttons';
