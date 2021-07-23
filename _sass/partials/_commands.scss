@@ -1,20 +1,19 @@
 .section-4cxrpb {
   padding: 120px 0;
-  background: $surface;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
   h2 {
-    font-size: 40px;
-    font-weight: 400;
-    color: $heading;
+    font-size: 48px;
+    font-weight: 500;
+    color: $black;
     opacity: .99;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 
     span {
-      font-weight: 600;
+      font-weight: 700;
     }
   }
 
@@ -26,7 +25,7 @@
     max-width: 1500px;
 
     .item-cxxsw2 {
-      width: 340px;
+      width: 330px;
       margin: 15px;
       border-radius: 28px;
       transition: .3s;
@@ -34,12 +33,12 @@
       .container-fzk1me {
         border-radius: 28px;
         padding: 30px;
-        border: solid 3px $surface-secondary;
+        border: solid 2px rgba(0, 0, 0, .1);
         cursor: pointer;
         transition: .3s;
 
         &:hover {
-          background: $surface-secondary;
+          background: hsl(0, 0%, 94%);
         }
 
         .accordion-dy5byx {
@@ -62,20 +61,20 @@
             font-size: 64px;
             margin-bottom: 30px;
             opacity: .99;
-            color: $heading;
+            color: $black;
           }
         
           h3 {
-            font-size: 28px;
-            font-weight: 500;
+            font-size: 26px;
+            font-weight: 600;
             opacity: .99;
             line-height: 1.4;
-            color: $heading;
+            color: $black;
           }
         
           span {
             font-size: 18px;
-            color: $text-dark;
+            color: $black-secondary;
             opacity: .99;
             line-height: 1.4;
           }
@@ -95,7 +94,7 @@
           p {
             padding: 30px 0;
             font-size: 18px;
-            color: $text;
+            color: $black-secondary;
             text-align: left;
             line-height: 1.4;
             opacity: .99;
@@ -103,12 +102,12 @@
         
           i {
             font-size: 20px;
-            color: $heading;
+            color: $black;
           }
         
           a {
             font-size: 18.5px;
-            color: $blurple-secondary;
+            color: $black-secondary;
             font-weight: 500;
         
             &:hover {
