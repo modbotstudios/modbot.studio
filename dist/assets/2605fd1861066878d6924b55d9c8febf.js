@@ -146,6 +146,18 @@ const commands = [
     slash: '/filter',
     description: 'Toggle the insult filter on your server with just one command.'
   },
+  {
+    name: 'Log',
+    icon: 'history',
+    slash: '/log',
+    description: 'Set the log channel for your server!'
+  },
+  {
+    name: 'Temporary Mute',
+    icon: 'volume_off',
+    slash: '/tempmute',
+    description: 'Tempmute an user in your server.'
+  },
 ]
 
 const commandCount = document.querySelector('.commandCount-zfgig7')
