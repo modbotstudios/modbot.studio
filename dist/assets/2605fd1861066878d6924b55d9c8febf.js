@@ -11,6 +11,11 @@ document.querySelector('.closePopup-gbkon9').addEventListener('click', function(
   document.querySelector('.mobilePopup-bgaqvw').style.display = 'none'
 })
 
+/******************************** FOOTER ********************************/
+
+const footer = document.querySelector('.footer-7fer4q')
+footer.innerHTML = `<div class="row-zok9jd"><span>&copy; ${new Date().getFullYear()} - modbot</span><span>Source Code published on <a class="fab" href="https://github.com/notazury/modbot.studio" target="_blank"></a></span><span><i class="material-icons-outlined">code</i> w/ <i class="material-icons-outlined">favorite_border</i> by <a href="https://azury.dev">@notazury</a> for modbot</span></div>`
+
 /******************************** COMMANDS ********************************/
 
 // commands
