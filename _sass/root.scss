@@ -2,12 +2,14 @@
 
 @import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap';
 @import 'https://fonts.googleapis.com/css?family=Material+Icons+Outlined|Material+Icons+Round';
+@import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/brands.min.css';
 
 /**************** THEME ****************/
 
 $font: 'Poppins', sans-serif;
 
 $white: hsl(0, 0%, 100%);
+$off-white: hsl(0, 0%, 96%);
 $black: rgba(0, 0, 0, .9);
 $black-secondary: rgba(0, 0, 0, .7);
 $link: hsl(197, 97%, 47%);
@@ -30,6 +32,7 @@ body, html {
 	scroll-behavior: smooth;
 	user-select: none;
   font-family: $font;
+	background: $off-white;
   font-size: 16px;
 }
 
@@ -59,9 +62,9 @@ svg {
 
 /**************** PARTIALS ****************/
 
-//@import 'partials/commands';
+@import 'partials/commands';
 //@import 'partials/contact';
-//@import 'partials/footer';
+@import 'partials/footer';
 @import 'partials/header';
 @import 'partials/hero';
 @import 'partials/buttons';
