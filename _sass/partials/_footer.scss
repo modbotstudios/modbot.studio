@@ -47,3 +47,13 @@
     }
   }
 }
+
+@media only screen and (max-width: 850px) {
+  .row-zok9jd {
+    flex-direction: column;
+    
+    span {
+      line-height: 1.4;
+    }
+  }
+}
