@@ -152,12 +152,14 @@ const commands = [
     slash: '/log',
     description: 'Set the log channel for your server!'
   },
+  /*
   {
     name: 'Temporary Mute',
     icon: 'volume_off',
     slash: '/tempmute',
     description: 'Tempmute an user in your server.'
   },
+  */
 ]
 
 const commandCount = document.querySelector('.commandCount-zfgig7')
